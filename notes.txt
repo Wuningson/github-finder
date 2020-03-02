@@ -1,0 +1,34 @@
+      //Method as part of class
+  // foo = () => `Bars`;
+    
+    // Without JSX
+    // return React.createElement(
+    //   'div',
+    //   { className: 'App' },
+    //   React.createElement('h1', null, 'Hello from React')
+    // );
+    // const foo = () => `Bar`;
+    // const name = 'John Doe';
+    // const loading = false;
+    // const name = `John Doe`;
+    // const showName = false;
+    // if (loading) {
+    //   return <h4>Loading</h4>;
+    // }
+    //For conditionals, ternary operator and && can be used, the right side of the && is evaluated if the left side is true
+    // {loading ? <h1>Loading</h1> : <h1>Hello {showName && name}</h1>}
+
+
+    For state:
+  constructor() {
+    super();
+    console.log(`Hello`);
+    this.state = {
+      id: 'id',
+      login: 'mojombo',
+      avatar_url: 'https://avatars0.githubusercontent.com/u/1?v=4',
+      html_url: 'https://github.com/mojombo'
+    };
+  }
+
+  You can use constructor or just simply state ={}
