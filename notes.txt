@@ -32,3 +32,9 @@
   }
 
   You can use constructor or just simply state ={}
+
+  state is usually created for forms in react
+
+  When creating functions in a class based component, if you use normal function syntax, you'll need to bind this on the 
+  call on the function, for the function to access the this of the class. So you'll have something like:
+  this.onSubmit.bind(this) at the function call
